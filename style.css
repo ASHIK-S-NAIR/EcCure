@@ -17,6 +17,7 @@
 
 .landing{
     height: 100vh;
+    margin-bottom: 5em;
 }
 
 .navigation{
@@ -115,6 +116,7 @@
 .hero-section-form{
     /* border: 1px solid rgb(99, 99, 99); */
     box-shadow: 0px 1px 10px 0 rgb(177, 175, 175);
+    border-radius: 10px;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -151,6 +153,66 @@
     /* box-shadow: 0px 1px 40px 0 rgb(213, 211, 211); */
     transition: 0.3s;
     border-radius: 10px;
+}
+
+.howdoesitwork{
+    margin-bottom: 5em;
+}
+
+.howdoesitwork-wrap{
+    text-align: center;
+}
+
+.howdoesitwork-heading{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1em;
+}
+
+.howdoesitwork-heading span{
+    color: #1ae2c6;
+}
+
+.howdoesitwork-inner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.howdoesitwork-section{
+    border: 1px solid rgba(111, 111, 111,0.15);
+    border-bottom: 0.3rem solid #1ae2c6;
+    width: 25%;
+    padding: 2em 1em 1.5em 1em;
+    position: relative;
+}
+
+.howdoesitwork-index{
+    color: #1ae2c6;
+    font-size: 2.5rem;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 1px 10px;
+    /* border: 1px solid black; */
+}
+
+.howdoesitwork-img{
+    margin-bottom: 1em;
+    width: 40%;
+}
+
+.howdoesitwork-subheading{
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+    /* color: rgb(61, 61, 61); */
+}
+
+.howdoesitwork-p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
 }
 
 /* tab responsiveness */
