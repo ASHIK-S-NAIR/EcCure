@@ -221,6 +221,11 @@
         width:90%;
     }
 
+    .landing{
+        height: auto;
+        margin-bottom: 3em;
+    }
+
     .hero-section-info{
         padding-top: 2em;
     }
@@ -261,6 +266,35 @@
         padding-left: 1em;
         width: 100%;
         border: none;
+    }
+
+    .howdoesitwork{
+        margin-bottom: 3em;
+    }
+
+    .howdoesitwork-heading{
+        font-size: 1.4rem;
+    }
+
+    .howdoesitwork-section{
+        width: 30%;
+        padding: 1.5em 0.5em 1em 0.5em;
+    }
+
+    .howdoesitwork-index{
+        font-size: 2rem;
+    }
+
+    .howdoesitwork-img{
+        width: 30%;
+    }
+
+    .howdoesitwork-subheading{
+        font-size: 0.9rem;
+    }
+
+    .howdoesitwork-p{
+        font-size: 0.7rem;
     }
 }
 
@@ -324,6 +358,55 @@
     .hero-section-input{
        padding: 0;
        margin-right: 0.8em;
+    }
+
+    .howdoesitwork-heading{
+        font-size: 1.5rem;
+        margin-bottom: 1.5em;
+    }
+
+    .howdoesitwork-inner{
+        flex-direction: column;
+    }
+
+    .howdoesitwork-section{
+        display: flex;
+        width: 100%;
+        /* height: 6em; */
+        padding: 0em;
+        align-items: flex-start;
+        border: none;
+        margin-bottom: 1em;
+        /* border: 1px solid violet; */
+    }
+
+    .howdoesitwork-index{
+        font-size: 1.5rem;
+        margin: 0px 5px;
+    }
+
+    .howdoesitwork-img{
+        width: 20%;
+        height: 40%;
+        padding-right: 0.5em;
+        /* border: 1px solid black; */
+    }
+
+    .howdoesitwork-info{
+        text-align: left;
+        padding-left: 0.5em;
+        display: flex;
+        flex-direction: column;
+        /* border: 1px solid black; */
+        /* border-left: 1px solid #1ae2c6; */
+        height: 80%;
+        /* background-color: pink; */
+    }
+
+    .howdoesitwork-p{
+        width: 87%;
+        word-spacing: 0.1rem;
+        font-size: 0.7rem;
     }
 
 }
