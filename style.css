@@ -357,6 +357,38 @@
     .howdoesitwork-p{
         font-size: 0.7rem;
     }
+
+    .bestdealsforyou{
+        margin-bottom: 3em;
+    }
+    
+    .bestdealsforyou-heading{
+        font-size: 1.4rem;
+    }
+    
+    .bestdealsforyou-inner{
+        grid-gap: 0.8em;
+    }
+    
+    .bestdealsforyou-section{
+        padding: 0.5rem;
+    }
+    
+    .bestdealsforyou-img{
+        width: 40%;
+    }
+    
+    .bestdealsforyou-info{
+        margin-left: 0.5em;
+    }
+    
+    .bestdealsforyou-subheading{
+        font-size: 0.9rem;
+    }
+    
+    .bestdealsforyou-p{
+        font-size: 0.7rem;
+    }
 }
 
 /* mobile responsiveness */
@@ -469,5 +501,37 @@
         word-spacing: 0.1rem;
         font-size: 0.7rem;
     }
+    
+    .bestdealsforyou-heading{
+        font-size: 1.5rem;
+        margin-bottom: 1.5em;
+    }
+    
+    .bestdealsforyou-inner{
+        grid-gap: 1em;
+        grid-template-columns: 1fr;
+    }
+    
+    .bestdealsforyou-section{
+        padding: 1rem;
+    }
+    
+    .bestdealsforyou-img{
+        width: 25%;
+    }
+    
+    .bestdealsforyou-info{
+        margin-left: 1em;
+    }
+    
+    .bestdealsforyou-subheading{
+        font-size: 0.9rem;
+    }
+    
+    .bestdealsforyou-p{
+        word-spacing: 0.1rem;
+        font-size: 0.7rem;
+    }
+    
 
 }
