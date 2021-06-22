@@ -150,6 +150,7 @@
 .hero-section-img{
     width: 100%;
     background-color: rgba(26,226,198,0.1);
+    /* background: rgba(26, 226, 198,0.05); */
     /* box-shadow: 0px 1px 40px 0 rgb(213, 211, 211); */
     transition: 0.3s;
     border-radius: 10px;
@@ -214,6 +215,67 @@
     font-weight: 500;
     color: rgb(61, 61, 61);
 }
+
+.bestdealsforyou{
+    margin-bottom: 5em;
+}
+
+.bestdealsforyou-wrap{
+    text-align: center;
+}
+
+.bestdealsforyou-heading{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1em;
+}
+
+.bestdealsforyou-heading span{
+    color: #1ae2c6;
+}
+
+.bestdealsforyou-inner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.bestdealsforyou-section{
+    /* border: 1px solid rgba(111, 111, 111,0.2); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    background: rgba(26, 226, 198,0.05);
+    /* background-color: rgba(26,226,198,0.1); */
+    border-radius: 10px;
+}
+
+.bestdealsforyou-img{
+    width: 40%;
+}
+
+.bestdealsforyou-info{
+    text-align: left;
+    margin-left: 0.8em;
+}
+
+.bestdealsforyou-subheading{
+    margin-bottom: 0.5em;
+    font-size: 1.2rem;
+}
+
+.bestdealsforyou-p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+
+/* #a9ede6
+#18e2c5
+#456670 */
+
 
 /* tab responsiveness */
 @media (max-width: 768px){
