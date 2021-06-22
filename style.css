@@ -508,20 +508,26 @@
     }
     
     .bestdealsforyou-inner{
-        grid-gap: 1em;
+        grid-gap: 0.8em;
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     
     .bestdealsforyou-section{
         padding: 1rem;
+        flex-direction: column;
+        width: 80%;
     }
     
     .bestdealsforyou-img{
-        width: 25%;
+        width: 40%;
+        margin-bottom: 1em;
     }
     
     .bestdealsforyou-info{
         margin-left: 1em;
+        flex-direction: column;
+        text-align: center;
     }
     
     .bestdealsforyou-subheading{
@@ -531,6 +537,8 @@
     .bestdealsforyou-p{
         word-spacing: 0.1rem;
         font-size: 0.7rem;
+        width: 60%;
+        margin:0 auto;
     }
     
 
