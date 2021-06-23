@@ -271,6 +271,26 @@
     color: rgb(61, 61, 61);
 }
 
+.whychooseus{
+    margin-bottom: 5em;
+}
+
+.whychooseus-wrap{
+    text-align: center;
+}
+
+.whychooseus-heading{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1em;
+}
+
+.whychooseus-heading span{
+    color: #1ae2c6;
+}
+
+
 /* #a9ede6
 #18e2c5
 #456670 */
