@@ -473,6 +473,33 @@
     .bestdealsforyou-p{
         font-size: 0.7rem;
     }
+
+    .whychooseus-heading{
+        font-size: 1.4rem;
+    }
+
+    .whychooseus-QA{
+        width: 90%;
+        padding: 1em;
+    }
+
+    .whychooseus-ques{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .whychooseus-ans{
+        font-size: 0.9rem;
+    }
+
+    .whychooseus-section{
+        grid-gap: 1em;
+    }
+
+    .whychooseus-sec{
+        padding: 0.5em;
+        font-size: 0.8rem;
+    }
 }
 
 /* mobile responsiveness */
