@@ -290,6 +290,72 @@
     color: #1ae2c6;
 }
 
+.whychooseus-inner{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.whychooseus-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+}
+
+.whychooseus-QA{
+    width: 80%;
+    padding: 1.1em;
+    box-shadow: 0px 1px 50px 0 rgb(242, 239, 239);
+    /* border: 1px solid rgba(111, 111, 111,0.15); */
+    border-left: 0.3rem solid #1ae2c6;
+}
+
+.whychooseus-ques{
+    font-size: 1.5rem;
+    margin-bottom: 0.3em;
+}
+
+.whychooseus-ans{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+
+.whychooseus-p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+}
+
+.whychooseus-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.5em;
+}
+
+.whychooseus-sec{
+    font-weight: 600;
+    height: 8em;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px; */
+}
+
+.light-green{
+    background-color: rgba(26,226,198,0.1);
+}
+
+.medium-green{
+    background-color: rgba(26, 226, 198, 0.9);
+}
+
+.dark-green{
+    background-color: rgba(26, 226, 198, 0.3);
+}
+
 
 /* #a9ede6
 #18e2c5
