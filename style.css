@@ -317,6 +317,7 @@
     font-size: 1rem;
     font-weight: 500;
     line-height: 1.4rem;
+    word-spacing: 0.4em;
     color: rgb(61, 61, 61);
 }
 
@@ -352,6 +353,90 @@
 
 .dark-green{
     background-color: rgba(26, 226, 198, 0.3);
+}
+
+.customerstories{
+    margin-bottom: 5em;
+}
+
+.customerstories-wrap{
+    text-align: center;
+}
+
+.customerstories-heading{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1em;
+}
+
+.customerstories-heading span{
+    color: #1ae2c6;
+}
+
+.customerstories-inner{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4em;
+}
+
+.customerstories-sec{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid rgba(111, 111, 111,0.15); */
+    border:  1px solid rgba(26, 226, 198, 0.3);
+    border-radius: 10px;
+    /* background-color: rgba(26, 226, 198, 0.3); */
+}
+
+.customerstories-info{
+    /* background-color: rgba(26,226,198,0.1); */
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 0.8em 2em;
+    /* border-bottom: 1px solid rgba(111, 111, 111,0.15); */
+    border-bottom: 1px solid rgba(26, 226, 198, 0.3);
+}
+
+.customerstories-img{
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    /* border-radius: 10px; */
+    /* position: absolute; */
+    border: 0.2em solid rgba(26, 226, 198, 0.3);
+    /* left: 2em;
+    top: -2.5em; */
+}
+
+.customerstories-detail{
+    margin-left: 1em;
+    text-align: left;
+}
+
+.customerstories-name{
+    /* position: absolute;
+    top: 2.5em;
+    left: 10em; */
+    font-size: 1rem;
+    margin-bottom: 0.2em;
+    /* font-style: italic; */
+    /* color: #1ae2c6; */
+}
+
+.customerstories-place{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.customerstories-tell{
+    padding: 2.5em 2em;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: rgb(61, 61, 61);
+    line-height: 1.4rem;
+    word-spacing: 0.4em;
 }
 
 
@@ -504,6 +589,57 @@
     .whychooseus-sec{
         padding: 0.5em;
         font-size: 0.8rem;
+    }
+
+    .customerstories{
+        margin-bottom: 3em;
+    }
+
+    .customerstories-heading{
+        font-size: 1.4rem;
+    }
+
+    .customerstories-inner{
+        grid-gap: 0.8em;
+    }
+    
+    .customerstories-sec{
+        padding: 0.2rem;
+    }
+
+    .customerstories-info{
+        padding: 0.5em 0.8em;
+    }
+    
+    .customerstories-img{
+        width: 3em;
+        height: 3em;
+        border-radius: 50%;
+        border: 0.2em solid rgba(26, 226, 198, 0.3);
+    }
+    
+    .customerstories-detail{
+        margin-left: 0.5em;
+        text-align: left;
+    }
+    
+    .customerstories-name{
+        font-size: 0.7rem;
+        margin-bottom: 0.1em;
+    }
+    
+    .customerstories-place{
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .customerstories-tell{
+        padding: 1.5em 1em;
+        font-size: 0.5rem;
+        font-weight: 500;
+        color: rgb(61, 61, 61);
+        line-height: 0.8rem;
+        word-spacing: 0.2em;
     }
 }
 
@@ -683,6 +819,61 @@
         padding: 0.5em;
         height: 6em;
         border-radius: 10px;
+    }
+
+    .customerstories-wrap{
+        text-align: center;
+    }
+    
+    .customerstories-heading{
+        font-size: 1.5rem;
+        margin-bottom: 1.5em;
+    }
+    
+    
+    .customerstories-inner{
+        grid-template-columns: 1fr;
+        grid-gap: 2em;
+        justify-items: center;
+    }
+    
+    .customerstories-sec{
+        display: flex;
+        width: 80%;
+    }
+    
+    .customerstories-info{
+        align-items: center;
+        padding: 0.5em 1em;
+    }
+    
+    .customerstories-img{
+        width: 4.5em;
+        height: 4.5em;
+        border-radius: 50%;
+        border: 0.2em solid rgba(26, 226, 198, 0.3);
+    }
+    
+    .customerstories-detail{
+        margin-left: 1em;
+    }
+    
+    .customerstories-name{
+        font-size: 1rem;
+        margin-bottom: 0.4em;
+    }
+    
+    .customerstories-place{
+        font-size: 0.8rem;
+    }
+    
+    .customerstories-tell{
+        padding: 2.5em 1.5em;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: rgb(61, 61, 61);
+        line-height: 1.4rem;
+        word-spacing: 0.3em;
     }
 
 }
