@@ -340,6 +340,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 10px;
     /* border-radius: 10px; */
 }
 
@@ -438,6 +439,122 @@
     line-height: 1.4rem;
     word-spacing: 0.4em;
 }
+
+.contactus{
+    margin-bottom: 5em;
+}
+
+.contactus-wrap{
+    text-align: center;
+}
+
+.contactus-heading{
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: rgb(61, 61, 61);
+    margin-bottom: 1em;
+}
+
+.contactus-heading span{
+    color: #1ae2c6;
+}
+
+.contactus-inner{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.contactus-div-form{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(26, 226, 198, 0.9);
+    padding: 3em 2em;
+    /* border: 1px solid red; */
+}
+
+.contactus-form{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.contactus-form-sec{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 2em;
+}
+
+.contactus-form-label{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.4em;
+}
+
+.contactus-form-input{
+    width: 100%;
+    height: 3em;
+    border-radius: 10px;
+    /* border: 1px solid rgb(157, 155, 155); */
+    border: none;
+    background-color: rgba(14, 184, 161, 0.9);
+}
+
+.contactus-form-textarea{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(14, 184, 161, 0.9);
+}
+
+.contactus-form-submit{
+    width: 30%;
+    height: 3em;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contactus-form-submit:hover{
+    cursor: pointer;
+    border: 2px solid #000;
+    background-color: rgba(26, 226, 198, 0.9);
+    color: #000;
+}
+
+.contactus-info{
+    padding-left: 3rem;
+}
+
+.contactus-p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    word-spacing: 0.4em;
+    color: rgb(61, 61, 61);
+    margin-block: 3em;
+}
+
+.contactus-social{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+.contactus-social-a{
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.contactus-social-icon{
+    margin-right: 1rem;
+    font-size: 2rem;
+}
+
 
 
 /* #a9ede6
@@ -818,7 +935,6 @@
         font-size: 1rem;
         padding: 0.5em;
         height: 6em;
-        border-radius: 10px;
     }
 
     .customerstories-wrap{
