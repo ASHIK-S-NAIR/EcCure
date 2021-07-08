@@ -1039,14 +1039,20 @@
     
     
     .customerstories-inner{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 2em;
         justify-items: center;
+        overflow-x: scroll;
+        /* scroll-direction: horizontal; */
+    }
+
+    .customerstories-inner::-webkit-scrollbar{
+        display: none;
     }
     
     .customerstories-sec{
         display: flex;
-        width: 80%;
+        width: 18em;
     }
     
     .customerstories-info{
