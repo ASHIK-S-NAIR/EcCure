@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap');
+
 :root{
     --text-color: #101010;
     --main-color: #1ae2c6;
@@ -8,11 +10,17 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    /* overflow: hidden; */
 }
 
 *::before,*::after{
     margin: 0;
     padding: 0;
+}
+
+html{
+ scroll-behavior: smooth;
 }
 
 .wrap{
@@ -27,7 +35,7 @@
         transform: translateY(0);
     }
     100%{
-        transform: translateY(-0.5em);
+        transform: translateY(-0.3em);
     }
 }
 
@@ -86,7 +94,7 @@
     display: grid;
     grid-template-columns: 60% 40%;
     align-items: center;
-    /* border: 1px solid black; */
+    padding-top: 2em;
 }
 
 .hero-section-heading{
@@ -101,14 +109,14 @@
 }
 
 .hero-section-subheading{
-    font-size: 1.2rem;
-    margin-bottom: 1.3rem;
-    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
 }
 
 .hero-section-ul{
     display: flex;
-    margin-bottom: 7em;
+    margin-bottom: 4em;
 }
 
 .hero-section-li{
@@ -176,7 +184,7 @@
 /* landing section ends */
 
 .howdoesitwork{
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 .howdoesitwork-wrap{
@@ -201,7 +209,7 @@
 
 .howdoesitwork-section{
     border: 1px solid rgba(111, 111, 111,0.15);
-    border-bottom: 0.3rem solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
     width: 25%;
     padding: 3em 2.5em;
     position: relative;
@@ -235,39 +243,39 @@
 }
 
 .bestdealsforyou{
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 .bestdealsforyou-wrap{
     text-align: center;
+    background: rgb(24, 235, 207);
+    padding: 3em;
+    border-radius: 10px;
 }
 
 .bestdealsforyou-heading{
     font-size: 2.4rem;
     font-weight: 600;
-    color: rgb(61, 61, 61);
-    margin-bottom: 1em;
-}
-
-.bestdealsforyou-heading span{
-    color: #1ae2c6;
+    color: var(--text-color);
+    /* margin-bottom: 0.5em; */
 }
 
 .bestdealsforyou-inner{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1em;
+    grid-gap: 2em;
+    /* background: rgba(26, 226, 198,0.05); */
+    padding: 2em 1em;
 }
 
 .bestdealsforyou-section{
-    /* border: 1px solid rgba(111, 111, 111,0.2); */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
-    background: rgba(26, 226, 198,0.05);
-    /* background-color: rgba(26,226,198,0.1); */
+    padding: 2rem;
+    background-color: #fff;
     border-radius: 10px;
+    box-shadow: 0px 1px 50px 20px rgba(0, 0, 0,0.1);
 }
 
 .bestdealsforyou-img{
@@ -282,16 +290,17 @@
 .bestdealsforyou-subheading{
     margin-bottom: 0.5em;
     font-size: 1.2rem;
+    line-height: 1.4rem;
 }
 
 .bestdealsforyou-p{
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 500;
     color: rgb(61, 61, 61);
 }
 
 .whychooseus{
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 .whychooseus-wrap{
@@ -301,7 +310,7 @@
 .whychooseus-heading{
     font-size: 2.4rem;
     font-weight: 600;
-    color: rgb(61, 61, 61);
+    color: var(--text-color);
     margin-bottom: 1em;
 }
 
@@ -376,7 +385,7 @@
 }
 
 .customerstories{
-    margin-bottom: 5em;
+    margin-bottom: 10em;
 }
 
 .customerstories-wrap{
@@ -386,7 +395,7 @@
 .customerstories-heading{
     font-size: 2.4rem;
     font-weight: 600;
-    color: rgb(61, 61, 61);
+    color: var(--text-color);
     margin-bottom: 1em;
 }
 
@@ -471,7 +480,7 @@
 .contactus-heading{
     font-size: 2.4rem;
     font-weight: 600;
-    color: rgb(61, 61, 61);
+    color: var(--text-color);
     margin-bottom: 1em;
 }
 
@@ -586,7 +595,12 @@
     font-size: 2.2rem;
 }
 
-
+.footer{
+    background-color: rgb(38,41,51);
+    text-align: center;
+    color: #fff;
+    padding: 1em 0;
+}
 
 /* #a9ede6
 #18e2c5
@@ -1110,6 +1124,7 @@
     
     .contactus{
         margin-bottom: 0;
+        width: 100%;
     }
     
     .contactus-wrap{
@@ -1122,7 +1137,7 @@
     }
     
     .contactus-inner{
-        grid-template-columns: 1fr;
+        grid-template-columns: 100%;
     }
     
     .contactus-div-form{
