@@ -50,12 +50,19 @@ html{
 }
 
 /* navigation sub section starts */
+
+.nav-boxShadow{
+    box-shadow: 0 6px 10px rgba(0, 0, 0,0.07);
+}
+
 .navigation{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-block: 0.5rem;
     margin-bottom: 3em;
+    height: 4em;
+    /* border: 1px solid red; */
 }
 
 .navigation-logo{
@@ -64,13 +71,21 @@ html{
     color: var(--main-color);
 }
 
+.navigation-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    /* border: 1px solid green; */
+}
+
 .navigation-ul{
     list-style: none;
 }
 
 .navigation-li{
     display: inline-block;
-    margin-left: 3rem;
+    margin-left: 1.5em;
     
 }
 
@@ -79,12 +94,22 @@ html{
     color: black;
     font-size: 0.9rem;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .navigation-a:hover{
     transition: 0.3s;
     font-weight: 700;
+}
+
+.navigation-social{
+    margin-left: 3em;
+}
+
+.navigation-social-icon{
+    font-size: 1.6rem;
+    color: #000;
+    margin: 0 0.2em;
 }
 
 /* navigation subsection ends */
@@ -248,7 +273,8 @@ html{
 
 .bestdealsforyou-wrap{
     text-align: center;
-    background: rgb(24, 235, 207);
+    /* background: rgb(24, 235, 207); */
+    background: linear-gradient(to bottom right,#7deddc, #11d1b8);
     padding: 3em;
     border-radius: 10px;
 }
@@ -275,7 +301,8 @@ html{
     padding: 2rem;
     background-color: #fff;
     border-radius: 10px;
-    box-shadow: 0px 1px 50px 20px rgba(0, 0, 0,0.1);
+    /* box-shadow: 0px 1px 50px 20px rgba(0, 0, 0,0.1); */
+    box-shadow: 7px 7px 5px rgba(29, 211, 187,0.18);
 }
 
 .bestdealsforyou-img{
@@ -612,6 +639,124 @@ html{
         height: auto;
         margin-bottom: 3em;
     }
+
+    .navigation{
+        
+    }
+
+    .navigation-section{
+        transform: translateX(-100%);
+        transition: 0.5s ease-in-out;
+        position: absolute;
+        height: calc(100% - 4em);
+        max-width: 100vw;
+        top: 4em;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255,255,255,0.96);
+        z-index: 999;
+    }
+
+    .navigation-section.open{
+        transform: translateX(0);
+    }
+
+    .navigation-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto 5em auto;
+    }
+
+    .navigation-li:first-child{
+        margin-bottom: 2em;
+    }
+
+    .navigation-li{
+        margin-left: 0;
+        /* border: 1px solid red; */
+        padding: 0.5em 2em;
+        width: 100%;
+        /* border: 1px solid red; */
+        border-radius: 8px;
+        /* background-color: #1b1b1b; */
+        color: #000;
+        text-align: center;
+        border: 1px solid #4b4b4b;
+    }
+
+    .navigation-a{
+        font-size: 1.5rem;
+        /* color: #fff; */
+    }
+
+    .navigation-social{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 65%;
+    }
+
+    .navigation-social-icon{
+        font-size: 2.4rem;
+    }
+
+    .nav-toggle{
+        height: auto;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav-toggle span{
+        width: 2em;
+        height: 3px;
+        background-color: #1b1b1b;
+        position: relative;
+    }
+
+    .nav-toggle.active span{
+        background-color: transparent;
+        transition: 0.5s background-color ease-in-out;
+    }
+
+    .nav-toggle span::before,
+    .nav-toggle span::after{
+        content: '';
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #1b1b1b;
+    }
+
+    .nav-toggle span::before{
+        transform: translateY(-10px);
+    }
+
+    .nav-toggle.active span::before{
+        transform: rotate(-45deg);
+        transition: 0.5s transform ease;
+    }
+
+    .nav-toggle span::after{
+        transform: translateY(10px);
+    }
+
+    .nav-toggle.active span::after{
+        transform: rotate(45deg);
+        transition: 0.5s transform ease;
+    }
+
+
+
 
     .hero-section-info{
         padding-top: 2em;
