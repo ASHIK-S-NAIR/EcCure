@@ -6,10 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcCure</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
         integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,6 +14,11 @@
 </head>
 
 <body>
+
+    <!-- page loader start -->
+    <div class="page-loader">EcCure</div>
+    <!-- page loader end -->
+
     <section class="landing">
         <div class="nav-boxShadow">
             <nav class="navigation wrap">
@@ -39,14 +41,13 @@
         </div>
 
         <div class="hero-section wrap">
-            <div class="hero-section-info">
+            <div class="hero-section-info" data-aos="fade-up" data-aos-duration="1600">
                 <h1 class="hero-section-heading">Fix your phone with a <span class="hero-section-span">click</span></h1>
                 <p class="hero-section-subheading">Need world class state of art technology service, No more search <br class="br"> for a service centre, Let us a chance to serve you </p>
                 <ul class="hero-section-ul">
-                    <li class="hero-section-li"><i class="far fa-dot-circle hero-section-i"></i>Doorstep Service</li>
-                    <li class="hero-section-li"><i class="far fa-dot-circle hero-section-i"></i>Certified Technicians
-                    </li>
-                    <li class="hero-section-li"><i class="far fa-dot-circle hero-section-i"></i>Quick Diagnosis</li>
+                    <li class="hero-section-li hero-section-li-1"><i class="far fa-dot-circle hero-section-i"></i>Doorstep Service</li>
+                    <li class="hero-section-li hero-section-li-2"><i class="far fa-dot-circle hero-section-i"></i>Certified Technicians</li>
+                    <li class="hero-section-li hero-section-li-3"><i class="far fa-dot-circle hero-section-i"></i>Quick Diagnosis</li>
                 </ul>
 
                 <label for="mobile-brand" class="hero-section-label">Search your mobile brand</label>
@@ -55,15 +56,15 @@
                     <button class="hero-section-form-btn"><i class="fas fa-search"></i></button>
                 </form>
             </div>
-            <img class="hero-section-img" src="Images/hero2.png" alt="">
+            <img class="hero-section-img" src="Images/hero2.png" alt="" data-aos="fade-down" data-aos-duration="1600">
         </div>
     </section>
 
     <section class="howdoesitwork">
         <div class="howdoesitwork-wrap wrap">
-            <h1 class="howdoesitwork-heading">How does it <span>work</span></h1>
+            <h1 class="howdoesitwork-heading" data-aos="fade-up">How does it <span>work</span></h1>
             <div class="howdoesitwork-inner">
-                <div class="howdoesitwork-section">
+                <div class="howdoesitwork-section" data-aos="flip-up">
                     <p class="howdoesitwork-index">01</p>
                     <img class="howdoesitwork-img" src="Images/chooseMobile.png" alt="Choose your Phone">
                     <div class="howdoesitwork-info">
@@ -71,7 +72,7 @@
                         <p class="howdoesitwork-p">Choose your mobile phone model from the given specified models</p>
                     </div>
                 </div>
-                <div class="howdoesitwork-section">
+                <div class="howdoesitwork-section" data-aos="flip-up">
                     <p class="howdoesitwork-index">02</p>
                     <img class="howdoesitwork-img" src="Images/pickup.png" alt="Book your Pickup">
                     <div class="howdoesitwork-info">
@@ -79,7 +80,7 @@
                         <p class="howdoesitwork-p">Book a pickup date and time that is comfortable for yourself</p>
                     </div>
                 </div>
-                <div class="howdoesitwork-section">
+                <div class="howdoesitwork-section" data-aos="flip-up">
                     <p class="howdoesitwork-index">03</p>
                     <img class="howdoesitwork-img" src="Images/phoneRepair.png" alt="Repair your Phone">
                     <div class="howdoesitwork-info">
@@ -93,23 +94,23 @@
 
     <section class="bestdealsforyou">
         <div class="bestdealsforyou-wrap wrap">
-            <h1 class="bestdealsforyou-heading">Best deals for <span>you</span></h1>
+            <h1 class="bestdealsforyou-heading" data-aos="fade-up">Best deals for <span>you</span></h1>
             <div class="bestdealsforyou-inner">
-                <div class="bestdealsforyou-section">
+                <div class="bestdealsforyou-section bestdealsforyou-section-1" data-aos="zoom-in">
                     <img src="Images/phoneBatteryGreen.png" alt="" class="bestdealsforyou-img">
                     <div class="bestdealsforyou-info">
                         <h3 class="bestdealsforyou-subheading">Battery Replacement</h3>
                         <p class="bestdealsforyou-p">Get 6 months warrenty + extra 6 months warrenty</p>
                     </div>
                 </div>
-                <div class="bestdealsforyou-section">
+                <div class="bestdealsforyou-section bestdealsforyou-section-2" data-aos="zoom-in">
                     <img src="Images/phoneWaterGreen.png" alt="" class="bestdealsforyou-img">
                     <div class="bestdealsforyou-info">
                         <h3 class="bestdealsforyou-subheading">Water Damage</h3>
                         <p class="bestdealsforyou-p">Get 6 months warrenty after the water damage service </p>
                     </div>
                 </div>
-                <div class="bestdealsforyou-section">
+                <div class="bestdealsforyou-section bestdealsforyou-section-3" data-aos="zoom-in">
                     <img src="Images/phoneAntivirusGreen.png" alt="" class="bestdealsforyou-img">
                     <div class="bestdealsforyou-info">
                         <h3 class="bestdealsforyou-subheading">Virus Protection</h3>
@@ -122,10 +123,9 @@
 
     <section class="whychooseus" id="whychooseus">
         <div class="whychooseus-wrap wrap">
-            <h1 class="whychooseus-heading">Why choose <span>us</span></h1>
+            <h1 class="whychooseus-heading" data-aos="fade-up">Why choose <span>us</span></h1>
             <div class="whychooseus-inner">
-                <div class="whychooseus-text">
-                    <!-- <p class="whychooseus-p">EcCure can help in repair or remove your mobile phone. We are an experienced team of professionals in attending accidental or any broken phones. Diagnosis and restoration are performed using the latest hardware and software technologies. We aim to simplify and ease your mind after you have a damaged phone experience. We start our service from your step after diagnosis explains the restoration process and help revoke and rejuvenate your phone. We like to be your lifelong close friend like your phone.</p> -->
+                <div class="whychooseus-text" data-aos="fade-right" >
                     <div class="whychooseus-QA">
                         <h3 class="whychooseus-ques">Our Team</h3>
                         <p class="whychooseus-ans">We are an experienced team of professionals in attending accidental
@@ -133,18 +133,18 @@
                     </div>
 
                     <div class="whychooseus-QA">
-                        <h3 class="whychooseus-ques">Our tech</h3>
+                        <h3 class="whychooseus-ques">Our Tech</h3>
                         <p class="whychooseus-ans">Diagnosis and restoration are performed using the latest hardware and
                             software technologies. </p>
                     </div>
 
                     <div class="whychooseus-QA">
-                        <h3 class="whychooseus-ques">Our offers</h3>
+                        <h3 class="whychooseus-ques">Our Offers</h3>
                         <p class="whychooseus-ans">We can offer you a wide range of offers discounts. Also include
                             restoration and improvisation packages.</p>
                     </div>
                 </div>
-                <div class="whychooseus-section">
+                <div class="whychooseus-section" data-aos="fade-left">
                     <div class="whychooseus-sec dark-green">Most trusted</div>
                     <div class="whychooseus-sec light-green">Warrenty</div>
                     <div class="whychooseus-sec medium-green">Advanced diagnosis</div>
@@ -158,9 +158,9 @@
 
     <section class="customerstories">
         <div class="customerstories-wrap wrap">
-            <h1 class="customerstories-heading">Customer <span>stories</span> </h1>
+            <h1 class="customerstories-heading" data-aos="fade-up">Customer <span>stories</span> </h1>
             <div class="customerstories-inner">
-                <div class="customerstories-sec">
+                <div class="customerstories-sec" data-aos="flip-left">
                     <div class="customerstories-info">
                         <img class="customerstories-img" src="./Images/u1.jpg" alt="IMG">
                         <div class="customerstories-detail">
@@ -172,7 +172,7 @@
                         call to EcCure took care made the process easy of finding the right repair store, best
                         components, and best price.</p>
                 </div>
-                <div class="customerstories-sec">
+                <div class="customerstories-sec" data-aos="flip-left">
                     <div class="customerstories-info">
                         <img class="customerstories-img" src="./Images/u2.jpg" alt="IMG">
                         <div class="customerstories-detail">
@@ -182,7 +182,7 @@
                     </div>
                     <p class="customerstories-tell">My phone accidently dropped into water and phone dead instantly, I approched EcCure with a click, after their diagnosis a good package with extra warrenty was offered by them.</p>
                 </div>
-                <div class="customerstories-sec">
+                <div class="customerstories-sec" data-aos="flip-left">
                     <div class="customerstories-info">
                         <img class="customerstories-img" src="./Images/u3.jpg" alt="IMG">
                         <div class="customerstories-detail">
@@ -198,9 +198,9 @@
 
     <section class="contactus" id="contactus">
         <div class="contactus-wrap wrap">
-            <h1 class="contactus-heading">Contact <span>us</span></h1>
+            <h1 class="contactus-heading" data-aos="fade-up">Contact <span>us</span></h1>
             <div class="contactus-inner">
-                <div class="contactus-div-form">
+                <div class="contactus-div-form" data-aos="fade-down">
                     <form action="post" class="contactus-form">
                         <div class="contactus-form-sec">
                             <label for="Name" class="contactus-form-label">Name</label>
@@ -220,7 +220,7 @@
                         <input class="contactus-form-submit" type="button" value="Submit">
                     </form>
                 </div>
-                <div class="contactus-info">
+                <div class="contactus-info" data-aos="fade-left">
                     <p class="contactus-p" >Never hesitate to make a call to us for any query or reason, our customer service is 24/7 online and waiting for your call. For queries on packages, offers, centers, or anything else contact via form or any else given below.</p>
                     <div class="contactus-social">
                         <a class="contactus-social-a" href="#"><i class="fab fa-facebook contactus-social-icon"></i> <p class="contactus-social-p">facebook.com/EcEcure</p></a>
@@ -239,6 +239,7 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="./script.js"></script>
 </body>
 
