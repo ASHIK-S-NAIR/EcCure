@@ -37,7 +37,7 @@ button{
 }
 
 .wrap{
-    width: 80%;
+    width: min(80%, 1250px);
     margin: 0 auto;
 }
 
@@ -96,7 +96,7 @@ button{
 
 /* landing section  starts*/
 .landing{
-    height: 100vh;
+    height: auto;
     width: 100%;
     margin-bottom: 5em;
 }
@@ -456,12 +456,10 @@ button{
 .whychooseus-sec{
     font-weight: 600;
     height: 8em;
-    /* border: 1px solid black; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    /* border-radius: 10px; */
 }
 
 .light-green{
@@ -573,17 +571,14 @@ button{
 .contactus-inner{
     display: grid;
     grid-template-columns: 55% 45%;
-    /* background: linear-gradient(to bottom right,#7deddc, #11d1b8); */
     background-color: rgba(17, 209, 184,0.1);
 }
 
 .contactus-div-form{
     display: flex;
     justify-content: center;
-    /* background-color: rgba(26, 226, 198, 0.9); */
     background-color: transparent;
     padding: 3em;
-    /* border: 1px solid red; */
 }
 
 .contactus-form{

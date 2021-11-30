@@ -3,7 +3,7 @@ window.addEventListener("load", function(){
     // page-loader start
     setTimeout(function(){
         document.querySelector(".page-loader").style.display = "none";
-    },800);
+    },500);
     // page-loader end
 
     // animate on scroll start
